@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "fullpage.js": "^4.0.20",
     "vue": "^3.3.4",
     "vue-fullpage.js": "^0.2.15"

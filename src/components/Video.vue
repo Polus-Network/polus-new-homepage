@@ -1,5 +1,5 @@
 <template>
-  <div class="video-section max-w-7xl mx-auto mt-12 shadow-white">
+  <div  data-aos="zoom-in" data-aos-offset="500" data-aos-easing="ease-in-out" class="video-section max-w-7xl mx-auto mt-12 shadow-white">
     <div class="video-container" ref="videoContainer" :class="{ 'video-playing': isVideoPlaying }">
       <video class="video rounded-3xl" ref="video" @play="handleVideoPlay" @pause="handleVideoPause">
         <source :src="Video" type="video/mp4">

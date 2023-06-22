@@ -19,7 +19,7 @@ import { defineComponent, h } from 'vue'
 
     <!-- HERO SECTION -->
     
-        <div class="max-w-3xl mx-auto py-14 px-4">
+        <div class="max-w-3xl mx-auto py-14 px-4" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div class="text-center space-y-4">
                 <h1 class="text-white text-4xl md:text-7xl font-semibold">Earn Smarter with
                     <p class="gradient-text"><span class="text-transparent text-4xl md:text-7xl">AI Technology</span></p>
@@ -43,7 +43,7 @@ import { defineComponent, h } from 'vue'
         </div>
 
         <!-- text about us -->
-        <div class="max-w-3xl mx-auto py-12 px-4  md:py-36 text-center space-y-4">
+        <div class="max-w-3xl mx-auto py-12 px-4  md:py-36 text-center space-y-4" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <h1 class="font-bold text-3xl text-white">About us</h1>
             <p class=" text-gray-200 text-sm">Polus Network is brought to you by “Polus AI” built with the sole purpose
                 of providing everyone an opportunity of investing in AI development and earn with it. At Polus Network,
